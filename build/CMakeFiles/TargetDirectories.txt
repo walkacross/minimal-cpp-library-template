@@ -1,0 +1,8 @@
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/CMakeFiles/rebuild_cache.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/CMakeFiles/edit_cache.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/libminimal/CMakeFiles/rebuild_cache.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/libminimal/CMakeFiles/libminimal.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/libminimal/CMakeFiles/edit_cache.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/example/CMakeFiles/rebuild_cache.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/example/CMakeFiles/subbinary.dir
+/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/example/CMakeFiles/edit_cache.dir

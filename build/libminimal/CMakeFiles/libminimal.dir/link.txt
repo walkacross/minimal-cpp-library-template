@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,liblibminimal.so -o liblibminimal.so CMakeFiles/libminimal.dir/src/utility.cpp.o CMakeFiles/libminimal.dir/src/low_level/base.cpp.o CMakeFiles/libminimal.dir/src/low_level/low_level_funcs.cpp.o 
