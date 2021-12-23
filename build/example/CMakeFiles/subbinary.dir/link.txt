@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/subbinary.dir/main.cpp.o -o subbinary  -Wl,-rpath,/media/yujiang/c54da21a-a3bc-4c5e-a36c-0a41b6108e59/workspace/third_party/minimal-cpp-library-template/build/libminimal ../libminimal/liblibminimal.so 
