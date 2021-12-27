@@ -1,8 +1,9 @@
-//
-// Created by yujiang on 2021/12/27.
-//
+#pragma once
 
-#ifndef MINIMAL_CPP_LIBRARY_TEMPLATE_EXTERNAL_H
-#define MINIMAL_CPP_LIBRARY_TEMPLATE_EXTERNAL_H
+namespace libminimal { namespace external {
 
-#endif //MINIMAL_CPP_LIBRARY_TEMPLATE_EXTERNAL_H
+    int understand_external_internal_linkage(int a);
+
+}
+
+}

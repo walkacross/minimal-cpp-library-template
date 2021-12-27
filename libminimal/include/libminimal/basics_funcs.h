@@ -2,9 +2,9 @@
 
 #include <tuple>
 //think why include this here?  #include<low_level_funcs> in libminimal will also include all heads in low_level folder
-#include <libminimal/low_level/base.h>
+#include <libminimal/basics/basics.h>
 
-namespace libminimal { namespace low_level {
+namespace libminimal { namespace basics {
 
         bool check_anormaly(int a, int b);
 

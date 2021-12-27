@@ -1,0 +1,3 @@
+project(basics)
+
+add_subdirectory(namespace_duration_scope_linkage)

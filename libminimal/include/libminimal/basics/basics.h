@@ -1,8 +1,10 @@
 #pragma once
 
 #include <vector>
+#include "libminimal/basics/namespace_duration_scope_linkage/external.h"
+#include "libminimal/basics/namespace_duration_scope_linkage/global.h"
 
-namespace libminimal { namespace low_level {
+namespace libminimal { namespace basics {
 
 int add(int a, int b);
 

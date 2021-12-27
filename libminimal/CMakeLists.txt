@@ -10,7 +10,10 @@ set(CMAKE_BUILD_TYPE Release)
 #
 add_library(${PROJECT_NAME} SHARED
         src/utility.cpp
-        src/low_level/base.cpp
-        src/low_level/low_level_funcs.cpp)
+        src/basics/basics.cpp
+        src/basics/basics_funcs.cpp
+        src/basics/namespace_duration_scope_linkage/global.cpp
+        src/basics/namespace_duration_scope_linkage/external.cpp
+        src/basics/namespace_duration_scope_linkage/support.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)

@@ -1,6 +1,6 @@
-#include <libminimal/low_level_funcs.h>
+#include <libminimal/basics_funcs.h>
 
-namespace libminimal { namespace low_level {
+namespace libminimal { namespace basics {
 
     bool check_anormaly(int a, int b){
         bool flag = true;

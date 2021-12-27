@@ -1,8 +1,8 @@
 #include <iostream>
 #include <stdexcept>
-#include <libminimal/low_level/base.h>
+#include <libminimal/basics/basics.h>
 
-namespace libminimal { namespace low_level {
+namespace libminimal { namespace basics {
 
     // function implementation
     int add(int a, int b){
