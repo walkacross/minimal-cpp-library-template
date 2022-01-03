@@ -1,8 +1,9 @@
 #include <vector>
 #include "libminimal/intermediate/data_io/data_reader.h"
 
-namespace libminimal { namespace intermediate { namespace data{
+namespace libminimal { namespace intermediate { namespace data {
 
+    // historical data in map format <timestamp, [open, high, low, close, adj_close, volume]>
 std::map<std::string, std::tuple<double, double, double, double, double, double>> read_trading_data(std::string file_path){
 
     std::map<std::string, std::tuple<double, double, double, double, double, double>> innerMap;
@@ -13,6 +14,8 @@ std::map<std::string, std::tuple<double, double, double, double, double, double>
     if(!filestream.is_open()) {
         throw std::runtime_error("Could not open file: " + file_path);}
     else {
+
+        // skip the first row in the data file where always the head info
         std::getline(filestream, line);
 
         // read the raw data line by line
