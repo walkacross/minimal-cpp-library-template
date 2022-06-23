@@ -22,11 +22,14 @@ set(LIBMINIMAL_PATCH_VERSION "2")
 # debug message
 message(STATUS "======================================================")
 message(STATUS "libminimal release version: ${LIBMINIMAL_MAJOR_VERSION}.${LIBMINIMAL_MINOR_VERSION}.${LIBMINIMAL_PATCH_VERSION}")
-message(STATUS "Creature unittest flag: ${ENABLE_UNITTEST}")
+message(STATUS "libminimal unittest flag: ${ENABLE_UNITTEST}")
 message(STATUS "======================================================")
 
 # load custom cmake module
 include(${CMAKE_CURRENT_SOURCE_DIR}/cmake/api.cmake)
+
+# load third-party
+load_nlohmann_json(${CMAKE_CURRENT_SOURCE_DIR} v3.10.5)
 
 # generate library
 add_subdirectory(libminimal)

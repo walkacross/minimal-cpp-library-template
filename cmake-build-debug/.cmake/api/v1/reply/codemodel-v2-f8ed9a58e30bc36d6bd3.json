@@ -1,0 +1,318 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libminimal",
+					"jsonFile" : "directory-libminimal-Debug-eaf3054092b2e93abc2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libminimal",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "example",
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7
+					],
+					"jsonFile" : "directory-example-Debug-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "example/basics",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-example.basics-Debug-14a131d33419877e11dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "example/basics"
+				},
+				{
+					"build" : "example/basics/namespace_duration_scope_linkage",
+					"jsonFile" : "directory-example.basics.namespace_duration_scope_linkage-Debug-af4e90faf3a4b4362a53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "example/basics/namespace_duration_scope_linkage",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "example/intermediate",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-example.intermediate-Debug-96b06502884134605db8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "example/intermediate"
+				},
+				{
+					"build" : "example/intermediate/data_reader",
+					"jsonFile" : "directory-example.intermediate.data_reader-Debug-240b299af1fc1a65cfe8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "example/intermediate/data_reader",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "example/domain_knowledge",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-example.domain_knowledge-Debug-8f4a6b3053affce9d396.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 7,
+					"source" : "example/domain_knowledge"
+				},
+				{
+					"build" : "example/domain_knowledge/finance",
+					"jsonFile" : "directory-example.domain_knowledge.finance-Debug-467e632ef0b886073acb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 8,
+					"source" : "example/domain_knowledge/finance",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "libminimal_example"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "libminimal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						5,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "subbinary",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "basics",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "namespace_duration_scope_linkage",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "intermediate",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "data_reader",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						8
+					],
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "domain_knowledge",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "finance",
+					"parentIndex" : 7,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "data_reader::@0ce5ed46ef683f7b3e57",
+					"jsonFile" : "target-data_reader-Debug-26ace1dea5c4d91c69d0.json",
+					"name" : "data_reader",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "finance::@1be65f001cb881c708c1",
+					"jsonFile" : "target-finance-Debug-42dba5999afc7737e5ac.json",
+					"name" : "finance",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libminimal::@f91e65bc5e15a43e072b",
+					"jsonFile" : "target-libminimal-Debug-964f5cea7344acfd027e.json",
+					"name" : "libminimal",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "namespace_duration_scope_linkage::@d5b5457654676e8e777d",
+					"jsonFile" : "target-namespace_duration_scope_linkage-Debug-991627e6d3038a819987.json",
+					"name" : "namespace_duration_scope_linkage",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "subbinary::@70983d692f648185febe",
+					"jsonFile" : "target-subbinary-Debug-75a9f4af0335f5c20241.json",
+					"name" : "subbinary",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sz/Documents/workspace/third_party/minimal-cpp-library-template/cmake-build-debug",
+		"source" : "/home/sz/Documents/workspace/third_party/minimal-cpp-library-template"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
