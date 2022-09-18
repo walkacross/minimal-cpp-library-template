@@ -17,7 +17,6 @@ protected:
 TEST_F(TestLowLevelFuncs, add) {
     int expected_output = the_first_int + the_second_int;
 
-    int real_output = libminimal::low_level::add(the_first_int, the_second_int);
+    int real_output = libminimal::basics::add(the_first_int, the_second_int);
     EXPECT_EQ(expected_output, real_output);
 }
-

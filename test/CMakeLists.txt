@@ -9,3 +9,5 @@ set(GTEST_LIB gtest gtest_main)
 add_executable(testLowLevelFunc ${TEST_PATH}/test_low_level_funcs.cpp)
 target_link_libraries(testLowLevelFunc PRIVATE libminimal ${GTEST_LIB})
 add_test(NAME TestLowLevelFuncs COMMAND testLowLevelFunc)
+
+add_subdirectory(intermediate)
