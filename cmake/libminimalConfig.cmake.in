@@ -1,0 +1,16 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# 查找 PUBLIC 依赖
+# find_dependency 是 find_package 的 Config 专用包装：
+#   - 自动继承父级的 QUIET / REQUIRED 语义
+#   - 失败时输出更友好的错误信息，指向 libminimal 而非依赖本身
+find_dependency(nlohmann_json REQUIRED)
+find_dependency(spdlog        REQUIRED)
+
+# 引入实际的 targets 定义文件（库路径、编译属性、依赖关系全在这里）
+include("${CMAKE_CURRENT_LIST_DIR}/libminimalTargets.cmake")
+
+# 校验消费者通过 find_package(libminimal COMPONENTS ...) 请求的组件是否都存在
+check_required_components(libminimal)
