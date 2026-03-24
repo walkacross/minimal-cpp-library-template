@@ -1,4 +1,6 @@
 #include <libminimal/utility.h>
+#include <cstddef>
+using std::size_t; // 将 std::size_t 引入当前作用域
 
 namespace libminimal { namespace utility {
 
