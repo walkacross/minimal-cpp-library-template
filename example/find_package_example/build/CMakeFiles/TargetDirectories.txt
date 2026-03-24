@@ -1,3 +1,0 @@
-/media/yujiang/C4163C42163C37AE/learning/third_party/minimal-cpp-library-template/example/find_package_example/build/CMakeFiles/consumer_app.dir
-/media/yujiang/C4163C42163C37AE/learning/third_party/minimal-cpp-library-template/example/find_package_example/build/CMakeFiles/edit_cache.dir
-/media/yujiang/C4163C42163C37AE/learning/third_party/minimal-cpp-library-template/example/find_package_example/build/CMakeFiles/rebuild_cache.dir
